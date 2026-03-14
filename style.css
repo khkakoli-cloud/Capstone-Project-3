@@ -1,0 +1,45 @@
+.ping1, .ping2 {
+    position: relative;
+    opacity: 8.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ping1{
+    background-image: url('Image1.jpg');
+    min-height: 500px;
+}
+.ping2{
+    background-image: url('Image2.jpg');
+    min-height: 400px;
+}
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+.section-light{
+    background-color: #f4f4f4;
+    color:#666;
+}
+.section-dark{
+    background-color: #282e34;
+    color:#ddd;
+}
+.ptext{
+    position: absoloute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color:#111;
+    color:#fff;
+    padding:20px;
+}
+.ptext .border.trans{
+    background-color: transparent;
+}
+@media(max-width:568px){
+    .ping1, .ping2{
+        background-attachment: scroll;
+    }
+}
